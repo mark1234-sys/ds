@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main() {
+    int namber, sum = 0;
+    std::cin >> namber;
+    for (int i = 1; i <= namber; i++)
+        sum= sum+i;
+    std::cout<<sum<<std::endl;
+    return 0;
+}
